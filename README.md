@@ -18,7 +18,6 @@ Dataset zawiera kilkaset wierszy z zespołami z różnych krajów i różnymi ze
 Plik odpowiedzialny za **ładowanie datasetu** do dalszej analizy. Zawiera funkcję `load_data()`, która:
 
 - Wczytuje CSV z danymi o zespołach alternative metal do Pandas DataFrame.
-- Funkcja `load_data()` zwraca DataFrame do dalszej analizy.
 - Przy uruchomieniu bezpośrednim wyświetla: pierwsze 5 wierszy, info o kolumnach i wymiary datasetu.
 
 ### `summary_stats.py` – podstawowe statystyki
