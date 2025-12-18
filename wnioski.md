@@ -10,7 +10,7 @@ Większość zespołów ma od 2 do 4 gatunków przypisanych w kolumnie `Genres`.
 
 ## Struktura nazw zespołów
 
-Analiza długości nazw zespołów pokazuje, że najczęściej spotykane są nazwy jednoczłonowe i dwuczłonowe (moliwe, e podyktowane jest to prostotą i łatwością zapamiętywania). Nazwy trójczłonowe i czteroczłonowe występują rzadziej, a nazwy składające się z pięciu lub więcej słów są wyjątkami - w tym konkretnym datasecie jest to jeden przypadek.
+Analiza długości nazw zespołów pokazuje, że najczęściej spotykane są nazwy jednoczłonowe i dwuczłonowe (możliwe, że podyktowane jest to prostotą i łatwością zapamiętywania). Nazwy trójczłonowe i czteroczłonowe występują rzadziej, a nazwy składające się z pięciu lub więcej słów są wyjątkami - w tym konkretnym datasecie jest to jeden przypadek.
 
 ## Rozkład geograficzny zespołów
 
