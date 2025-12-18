@@ -17,7 +17,7 @@ print("\nProcent braków w każdej kolumnie (zaokrąglone do 2 miejsc):")
 print((df_temp.isnull().mean() * 100).round(2))
 
 # Pokazanie jakie wartości są w kolumnie 'Active' 
-print("Wartości w kolumnie 'Active' przed uzupełnieniem braków:")
+print("Wartości w kolumnie 'Active' przed modyfikacją wartości null & NaN:")
 print(df_temp['Active'].value_counts(dropna=False))  #dropna, żeby zobaczyć wartości NaN/puste pola w datasetcie
 
 # Zamiana braków/NaN na czytelny label, np. Unknown/Brak danych
