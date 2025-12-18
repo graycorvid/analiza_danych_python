@@ -6,7 +6,7 @@ df = load_data()
 # kopia datasetu
 df_temp = df.copy()
 
-# Liczenie braków danych
+# Liczenie braków danych (puste komórki, Null, NaN)
 print("Liczba braków danych w każdej kolumnie:")
 print(df_temp.isnull().sum())
 
