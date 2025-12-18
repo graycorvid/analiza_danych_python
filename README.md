@@ -72,14 +72,14 @@ Plik generuje ogólne statystyki datasetu:
 
 ### Wykresy
 
-Pliki `genres_chart.py`, `countries_chart.py`, `bands_name_len_chart.py`, `activity_chart.py` oraz `describe_genres_chart.py` odpowiadają za wizualizacje danych.
+Pliki `genres_chart.py`, `countries_chart.py`, `bands_name_len_chart.py`, `activity_chart.py`, `heatmap_chart.py` oraz `describe_genres_chart.py` odpowiadają za wizualizacje danych.
 
 - **`genres_chart.py`** – wykres kołowy pokazujący rozkład liczby zespołów w poszczególnych gatunkach (jeden zespół może być liczony w kilku gatunkach).
 - **`countries_chart.py`** – wykres słupkowy pokazujący liczbę zespołów według krajów
 - **`bands_names_len_chart.py`** – wykres słupkowy pokazujący liczbę zespołów według długości nazwy zespołu (1, 2, 3, 4, 5+ słów).
 - **`describe_genres_chart.py`** – wykres słupkowy pokazujący liczbę zespołów w zależności od liczby gatunków przypisanych do jednego zespołu.
 - **`activity_chart.py`** – wykres kołowy pokazujący podział zespołów według statusu aktywności (Yes, No, On hiatus, Unknown).
-- **`heatmap.py`** – wykres typu heatmapa, który pokazuje liczbę zespołów w wybranych krajach dla najpopularniejszych gatunków. Każda komórka przedstawia liczbę zespołów danego kraju przypisanych do danego gatunku. Kolory reprezentują intensywność liczby zespołów, a wartości są dodatkowo podane na polach, co ułatwia odczyt.
+- **`heatmap_chart.py`** – wykres typu heatmapa, który pokazuje liczbę zespołów w wybranych krajach dla najpopularniejszych gatunków. Każda komórka przedstawia liczbę zespołów danego kraju przypisanych do danego gatunku. Kolory reprezentują intensywność liczby zespołów, a wartości są dodatkowo podane na polach, co ułatwia odczyt.
 
 ## Wnioski
 
