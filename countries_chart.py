@@ -5,7 +5,7 @@ from load import load_data
 
 df = load_data()
 
-# Liczenie zespołów w każdym kraju, top 9 (ucinamy po 9, bo dalej wszystkie wartości to 1)
+# Liczenie zespołów w każdym kraju, "top 9" (ucinamy po 9, bo dalej wszystkie wartości to 1)
 country_counts = df['Origin'].value_counts().head(9).reset_index()
 country_counts.columns = ['Country', 'Count']
 

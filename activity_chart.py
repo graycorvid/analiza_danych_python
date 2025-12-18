@@ -4,7 +4,7 @@ from load import load_data
 
 df = load_data()
 
-# Zamiana pustych pół i nan na 'Unknown'
+# Zamiana pustych pól i NaNów na 'Unknown'
 df['Active'] = df['Active'].fillna('Unknown')
 
 status_counts = df['Active'].value_counts()

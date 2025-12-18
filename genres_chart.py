@@ -5,8 +5,7 @@ import re
 
 df = load_data()
 
-# Czyszczenie - wygenerowałam przy użyciu gpt po prostu różne regexy, bo inaczej powielały mi się te same
-# gatunki przez różnice w pisowni
+# Czyszczenie - wygenerowałam przy użyciu gpt po prostu różne regexy, bo inaczej powielały mi się te same gatunki przez różnice w pisowni
 def clean_genre(g):
     g = g.lower()                  # małe litery
     g = g.replace('-', ' ')        # myślniki -> spacja

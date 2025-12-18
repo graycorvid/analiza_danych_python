@@ -6,7 +6,7 @@ import numpy as np
 # Wczytanie danych za pomocą funkcji z load.py
 df = load_data()
 
-# Zamiana wszystkich stringów 'Nan', 'nan', 'NaN' w całym df na prawdziwe NaN
+# Zamiana wszystkich stringów 'Nan', 'nan', 'NaN' w całym df na NaN, aby ułatwić manipulację danymi i uniknąć błędów
 df = df.replace(['Nan', 'nan', 'NaN'], np.nan)
 
 # Liczba unikalnych wartości w każdej kolumnie
@@ -18,9 +18,9 @@ for col in df.columns:
     print(f"\n{col}:")
     print(df[col].value_counts(dropna=True).head(5))
 
-#Nietstey powyższe zestawienia unikalnych i najczęstszych wartości traktują każdą komórkę jako pojedynczą wartość tekstową.
-#Nie uwzględniają przypadków, gdy w kolumnie 'Genres' występuje kilka gatunków w jednej komórce, więc nie pokazująfaktycznej liczby zespołów w poszczególnych gatunkach.")
-#Bardziej szczegółowe wyszukiwanie w pliku "genre_stats.py"
+#Nietstey zestawienia unikalnych i najczęstszych wartości traktują każdą komórkę jako pojedynczą wartość tekstową.
+#Nie uwzględniają przypadków, gdy w kolumnie 'Genres' występuje kilka gatunków w jednej komórce, więc nie pokazują faktycznej liczby zespołów w poszczególnych gatunkach.")
+#Bardziej szczegółowe wyszukiwanie zrobiłam w pliku "genre_stats.py"
 
 
 

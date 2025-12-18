@@ -7,7 +7,7 @@ def load_data():
     df = pd.read_csv(file_path)
     return df
 
-# jeśli uruchamiamy load.py
+# jeśli uruchamiamy load.py (wstępne dane, aby przetestować dataset)
 if __name__ == "__main__":
     df = load_data()
     print("Pierwsze 5 wierszy:")
