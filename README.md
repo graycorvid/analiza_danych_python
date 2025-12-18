@@ -2,6 +2,19 @@
 
 ['Alternative Metal Bands' kaggle dataset](https://www.kaggle.com/datasets/aslawant/alternative-metal-bands?resource=download)
 
+## Narzędzia
+
+- Python 3.x
+- Pandas – do manipulacji danymi
+- NumPy – pomocniczo przy brakach danych
+- Seaborn i Matplotlib – do wizualizacji
+
+Instalacja wszystkich pakietów może być wykonana jednym poleceniem:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
 ## Opis datasetu
 
 Plik `alternative_metal_bands.csv` zawiera informacje o zespołach grających w gatunkach metalowych, głównie alternative metal i pokrewne. Kolumny w dataset to:
@@ -12,6 +25,13 @@ Plik `alternative_metal_bands.csv` zawiera informacje o zespołach grających w 
 - **Genres** – gatunki muzyczne zespołu (mogą być oddzielone przecinkami)
 
 Dataset zawiera kilkaset wierszy z zespołami z różnych krajów i różnymi zestawami gatunków muzycznych. Wszystkie analizy są wykonywane na kopii danych, oryginalny plik CSV pozostaje niezmieniony.
+
+Każdy plik Python po uruchomieniu w terminalu pokazuje swoje wyniki – statystyki, zestawienia lub wykresy.
+Przykładowe uruchomienie pliku ze statystykami:
+
+```bash
+python summary_stats.py
+```
 
 ### `load.py` – wczytywanie danych
 
@@ -60,15 +80,6 @@ Pliki `genres_chart.py`, `countries_chart.py`, `bands_chart.py`, `activity_chart
 - **`describe_genres_chart.py`** – wykres słupkowy pokazujący liczbę zespołów w zależności od liczby gatunków przypisanych do jednego zespołu.
 - **`activity_chart.py`** – wykres kołowy pokazujący podział zespołów według statusu aktywności (Yes, No, On hiatus, Unknown).
 
-## Narzędzia
+## Wnioski
 
-- Python 3.x
-- Pandas – do manipulacji danymi
-- NumPy – pomocniczo przy brakach danych
-- Seaborn i Matplotlib – do wizualizacji
-
-Instalacja wszystkich pakietów może być wykonana jednym poleceniem:
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
+Wnioski końcowe znajdują się w oddzielnym pliku **`wnioski.md`**.
